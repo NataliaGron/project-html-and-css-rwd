@@ -1,26 +1,25 @@
-/* --- header --- */
+/* -- Header -- */
 
 header {
     background-size: 100% 100%;
 }
 
-.header__container{
-    padding: 0 15px;
+.header__container {
     background-color: transparent;
+    padding: 0 15px;
     position: unset;
-
 }
 
-.nav__hamburger{
+.nav__hamburger {
     display: none;
 }
 
 .header__nav {
-    display: initial;
-    position: relative;
     background-color: transparent;
-    margin: 0 auto;
     border: 0;
+    display: initial;
+    margin: 0 auto;
+    position: relative;
 }
 
 .menu__link {
@@ -28,22 +27,12 @@ header {
     padding: 10px;
 }
 
-.menu__item{
+.menu__item {
     width: auto;
 }
 
-
 .nav__toggler + label {
     display: none;
-}
-
-.arrow--down {
-    border: solid white;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    margin: 0 0 0.2rem 0.2rem;
 }
 
 .menu__link:hover{
@@ -51,53 +40,64 @@ header {
     color: darkblue;
 }
 
-/* dropdown */
+/* downward arrow */
 
-.dropdown{
-    position: absolute;
-    left: 0;
-    width: 200px;
-    display:none;
+.arrow--down {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    margin: 0 0 0.2rem 0.2rem;
+    
 }
 
-.dropdown__item{
+/* dropdown */
+
+.dropdown {
+    display:none;
+    left: 0;
+    position: absolute;
+    width: 200px;
+}
+
+.dropdown__item {
+    background-color: white;
+    border: 0;
     height: auto;
     width: 100%;
-    border: 0;
-    background-color: white;
 }
 
 .dropdown__link {
     color: darkblue;
 }
 
-.dropdown__link:hover{
+.dropdown__link:hover {
     background-color: #3DA1FC;
     color: white;
 }
-/* button */
+
+/* button-download */
 
 .btn--download {
-    display: initial;
-    padding: 15px 15px;
-    letter-spacing: 0;
-    font-weight: normal;
     background-color: #42B3FA;
-    font-weight: 400;
+    display: initial;
     font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 15px 15px;
 }
 
-/* hero container */
+/* hero__container */
 
 .hero__container {
     display: flex;
-    padding: 50px 0 0;
     justify-content: center;
+    padding: 50px 0 0;
 }
 
 .hero__text {
-    max-width: 635px;
     margin: 80px 0 0 40px;
+    max-width: 635px;
     padding: 0 0 50px;
 }
 
@@ -110,16 +110,16 @@ header {
     font-size: 16px;
 }
 
-.hero__banner{
+.hero__banner {
     padding: 0 50px 0 0;
 }
 
-/* --- features --- */
+/* -- Features -- */
 
 .features__title--first {
     font-size: 45px;
-    padding: 150px 15px 100px;
     max-width: 450px;
+    padding: 150px 15px 100px;
 }
 
 .features__item__text {
@@ -130,14 +130,14 @@ header {
     justify-content: space-evenly;
 }
 
-/**/
+/* features content */
 
-.features__container--content{
+.features__container--content {
     justify-content: center;
 }
 
 .features__cell--content {
- margin-left: 40px;   
+    margin-left: 40px;   
 }
 
 .features__title--second {
@@ -145,30 +145,30 @@ header {
     max-width: 400px;
 }
 
-.features__cell--content p{
+.features__cell--content p {
     width: 450px;
 }
 
-.btn--downloadNow{
+.btn--downloadNow {
     font-size: 16px;
     padding: 15px 30px;
 }
 
 .features__cell--image {
-    padding: 100px 100px 0 120px;
     align-self: center; 
+    padding: 100px 100px 0 120px;
 }
 
-/*--Review--*/
+/* -- Review -- */
 
 .review__container {
     padding-bottom: 175px;
 }
 
-.review__heading{
+.review__heading {
     font-size: 45px;
-    max-width: 400px;
     line-height: 50px;
+    max-width: 400px;
     padding-top: 200px;
 }
 
@@ -178,21 +178,19 @@ header {
     max-width: 1100px;
 }
 
-
 /* -- Pricing -- */
 
-.pricing__header{
+.pricing__header {
     font-size: 45px;
 }
 
-.pricing__subtext{
-padding-bottom: 90px;
+.pricing__subtext {
+    padding-bottom: 90px;
 }
 
 .pricing__content--left, .pricing__content--middle, .pricing__content--right {
     width: 370px;
 }
-
 
 /* -- Productivity -- */
 
@@ -200,7 +198,7 @@ padding-bottom: 90px;
     padding-bottom: 140px;
 }
 
-.productivity__container{
+.productivity__container {
     display: flex;
     padding: 150px 0 30px;
 }
@@ -210,7 +208,7 @@ padding-bottom: 90px;
     padding: 0;
 }
 
-.productivity__applications{
+.productivity__applications {
     align-self: center;
     margin-right: 40px;
 }
@@ -219,9 +217,11 @@ padding-bottom: 90px;
     margin-left: 10px;
 }
 
+/* -- Footer -- */
 
-/* --Footer Top--*/
-.footer__container--top{
+/* top */
+
+.footer__container--top {
     flex-wrap: nowrap;
     padding: 100px 30px 170px;
 }
@@ -231,7 +231,7 @@ padding-bottom: 90px;
 }
 
 .footer__list{
-    width:30%;
+    width: 30%;
 }
 
 .footer__logo {

@@ -1,39 +1,41 @@
-/* --- header --- */
+/* -- Header -- */
 
 header {
-    background-size: 100% 90%;
     background-position: top;
+    background-size: 100% 90%;
 }
 
 .header__container {
     padding: 20px 60px;
 }
 
-.hero__container{
-    padding: 80px 0 0;
+/* hero__container */
+
+.hero__container {
     display: flex;
+    padding: 80px 0 0;
 }
 
-.hero__banner{
+.hero__banner {
     padding: 0 100px 50px 0;
 }
 
 .hero__image {
-    max-width: 100%;
     height: auto;
     margin: 100px 0 0;
+    max-width: 100%;
     padding: 0;
 }
 
 .hero__text {
-    padding: 0 0 0 100px;
     margin: 100px auto 0 0;
     max-width: 450px;
+    padding: 0 0 0 100px;
 }
 
 .hero__text h2 {
-    margin: 0 auto;
     font-size: 30px;
+    margin: 0 auto;
 }
 
 .hero__text p {
@@ -44,38 +46,41 @@ header {
 .btn--start {
     padding: 15px 35px;
 }
-/* --- features --- */
-.features__icon{
+
+/* -- Features -- */
+
+.features__icon {
     height: 110px;
-    width: 110px;
     padding: 30px;
-}
-.features__title--first {
-    max-width: 400px;
-    margin: 0 auto;
+    width: 110px;
 }
 
-.features__item--list{
+.features__title--first {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.features__item--list {
     display: flex;
     justify-content: space-between;
     padding: 0 80px 100px;
 }
 
-.features__item__text{
+.features__item__text {
     max-width: 200px;
     padding-bottom: 0;
 }
 
-/**/
-
 .features__title--second {
     display: flex;
     justify-content: left;
-    text-align: left;
     margin: 60px auto 0 0;
     max-width: 360px;
     padding: 30px 0;
+    text-align: left;
 }
+
+/* features content */
 
 .features__container--content {
     display: flex;
@@ -88,26 +93,26 @@ header {
     padding: 0;
 }
 
-.features__cell--content p{
+.features__cell--content p {
     padding: 0;
     width: 335px;
 }
 
-.features__cell--content{
+.features__cell--content {
     margin: 0 0 0 100px;
 }
 
 .features__cell--image {
-    padding: 100px 100px 0 30px;
     align-self: center; 
+    padding: 100px 100px 0 30px;
 }
 
-.btn--downloadNow{
+.btn--downloadNow {
     margin: 0;
     padding: 15px 30px;
 }
 
-/* --- Review --- */
+/* -- Review -- */
 
 .review {
     background-position: top; 
@@ -118,9 +123,9 @@ header {
     padding-bottom: 100px;
 }
 
-.review__heading{
-    max-width: 400px;
+.review__heading {
     line-height: 45px;
+    max-width: 400px;
     padding: 80px 0;
 }
 
@@ -137,22 +142,22 @@ header {
     padding: 150px 0 20px;
 }
 
-.pricing__subtext{
+.pricing__subtext {
     font-size: 16px;
-    max-width: 600px;
     margin: 0 auto;
+    max-width: 600px;
 }
 
-.pricing__container--content{
+.pricing__container--content {
     display: flex;
     justify-content: center;
 }
 
-.pricing__offer--header{
+.pricing__offer--header {
     font-size: 18px;
 }
 
-.pricing__offer--content{
+.pricing__offer--content {
     font-size: 16px;
 }
 .pricing__offer--content li {
@@ -167,7 +172,7 @@ header {
     width: 230px;
 }
 
-.pricing__btn{
+.pricing__btn {
     font-size: 16px;
 }
 
@@ -184,9 +189,9 @@ header {
 
 .productivity__header {
     font-size: 45px;
-    padding: 150px 0 30px;
-    max-width: 700px;
     line-height: 1.5;
+    max-width: 700px;
+    padding: 150px 0 30px;
     text-align: left;
 }
 
@@ -194,21 +199,23 @@ header {
     height: 50px;
 }
 
-/* --Footer Top--*/
+/* -- Footer -- */
 
-.footer__container--top{
-    padding: 90px 100px 60px;
+/* top */
+
+.footer__container--top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 90px 100px 60px;
 }
 
 .footer__test {
     width: 50%
 }
 
-.footer__list{
-    width:50%;
+.footer__list {
+    width: 50%;
 }
 
 .footer__container--top > div {
@@ -228,23 +235,23 @@ header {
 }
 
 .footer__icon {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
     font-size: 1em;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
 }
 
-.footer__list h3{
+.footer__list h3 {
     font-size: 22px;
     margin-bottom: 20px;
 }
 
 .footer__list ul {
-    line-height: 3em;
     font-size: 13px;
+    line-height: 3em;
 }
 
-/* --Footer Bottom--*/
+/* bottom */
 
 .footer__container--bottom {
     font-size: 13px;
