@@ -2,7 +2,7 @@
 
 header {
     background-color: #FFFFFF;
-    background-image: url("../../images/banner/banner.png");
+    background-image: url("../images/banner/banner.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 90%;
@@ -285,7 +285,7 @@ header {
 
 .review {
     box-shadow: inset 0 0 0 1000px rgb(93, 178, 255, .9);
-    background-image: url('../../images/banner/testmonial.png');
+    background-image: url('../images/banner/testmonial.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;    
@@ -431,7 +431,7 @@ header {
 /* -- Productivity -- */
 
 .productivity {
-    background-image: url('../../images/banner/product.png');
+    background-image: url('../images/banner/product.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 100%;    
